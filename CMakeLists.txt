@@ -53,6 +53,8 @@ ENDIF(HUNTER_ENABLED)
 
 PROJECT( Assimp VERSION 5.0.0 )
 
+SET(CMAKE_CXX_FLAGS " -Wno-class-memaccess -Wno-tautological-compare ${CMAKE_CXX_FLAGS} ") # local change to get no warning during build of BALD ENGINE
+
 # All supported options ###############################################
 
 OPTION( BUILD_SHARED_LIBS
