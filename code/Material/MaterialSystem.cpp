@@ -465,7 +465,7 @@ aiReturn aiMaterial::RemoveProperty ( const char* pKey,unsigned int type, unsign
 
 // ------------------------------------------------------------------------------------------------
 aiReturn aiMaterial::AddBinaryProperty (const void* pInput,
-    unsigned int pSizeInBytes,
+    long unsigned int pSizeInBytes,
     const char* pKey,
     unsigned int type,
     unsigned int index,

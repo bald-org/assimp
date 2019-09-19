@@ -775,7 +775,7 @@ public:
      *  @param index Set by the AI_MATKEY_XXX macro
      *  @param pType Type information hint */
     aiReturn AddBinaryProperty (const void* pInput,
-        unsigned int pSizeInBytes,
+        long unsigned int pSizeInBytes,
         const char* pKey,
         unsigned int type ,
         unsigned int index ,
