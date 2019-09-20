@@ -273,7 +273,7 @@ public:
      * @see GetPropertyInteger()
      */
     ai_real GetPropertyFloat(const char* szName,
-        ai_real fErrorReturn = 10e10) const;
+        ai_real fErrorReturn = 10e10f) const;
 
     // -------------------------------------------------------------------
     /** Get a string configuration property
